@@ -9,7 +9,7 @@ export default function Home() {
         <title>Rudy&#39;s Nutrition</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="images/blue-green-gradient-lighter-logo-icon.svg" />
       </Head>
       <>
         {/* Nav */}
@@ -60,8 +60,8 @@ export default function Home() {
         {/* Nav */}
 
         {/* Hero */}
-        <section className="bg-center bg-repeat bg-[url('/images/straightened-blue-shoes-weights-1920.png')] bg-gray-500 bg-blend-multiply">
-          <div className="px-4 mx-auto max-w-screen-xl text-center pt-40 pb-24 lg:pt-72 lg:pb-56">
+        <section className="bg-center bg-repeat bg-[url('/images/shoes-weights.jpeg')] bg-gray-500 bg-blend-multiply">
+          <div className="px-4 mx-auto max-w-screen-xl text-center pt-40 pb-24 lg:pt-64 lg:pb-60">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Begin Your Fitness Journey Today</h1>
             <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Whether you want to pack on muscle or lose weight, our coach can give you the guidance you need to crush your goals.</p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
