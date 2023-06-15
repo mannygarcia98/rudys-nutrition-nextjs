@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
 import Link from "next/link";
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -84,7 +81,7 @@ export default function Home() {
         {/* Hero */}
 
         {/* Services */}
-        <section className="bg-gray-900 pb-24" id="services">
+        <section className="bg-gray-900" id="services">
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-lg mb-8 lg:mb-12">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white text-center">Here&#39;s how it works</h2>
