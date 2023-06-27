@@ -222,9 +222,8 @@ export default function Home() {
             <div className="mx-auto max-w-screen-lg mb-8 lg:mb-12">
               <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white text-center">Meet your Coach</h2>
               <p className="mb-5 font-light sm:text-xl text-gray-300">
-                Nutrition: - 1 (5 - 10 min) phone call a week. To check in to see how the week is going, and to see if they have questions. - 1 (20 - 30 min) video call every other week. Go over some of the obstacles they might be having, and also see what else is going on with them. - Help go over
-                meal planning and prepping when needed. <br />
-                Online Training: - Go over what they want to accomplish with their body, and create a workout plan for them to follow. - Not a copy-and-paste work-out plan. I will create it with their specific goals in mind.
+                Let&#39;s get started! I am your coach, Rudy Garza. I have been into fitness and nutrition for the last 8 years of my life. Always challenged, when I was younger, of being overweight. I wanted to turn my life around. I specialize in nutritional coaching, and I love to see my clients
+                meet their goals. Whether that be losing, gaining, or maintaining weight. All of the clients that follow my guidance have seen significant progress in reaching their goals. Let&#39;s get started today, and let me help you get the body you&#39;ve always dreamed of!
               </p>
             </div>
           </div>
