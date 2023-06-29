@@ -9,7 +9,7 @@ export default function Home() {
         <title>Rudy&#39;s Nutrition</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="images/blue-green-gradient-lighter-logo-icon.svg" />
+        <link rel="icon" type="image/x-icon" href="images/blue-green-gradient-lighter-logo-icon.svg" />
       </Head>
       <>
         {/* Nav */}
@@ -240,7 +240,7 @@ export default function Home() {
 
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Rudy&#39;s Nutrition</span>
               </a>
-              <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-300">
+              <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-300 invisible sm:visible">
                 <li>
                   <a href="#services" className="mr-4 hover:underline md:mr-6 ">
                     Services
@@ -274,6 +274,17 @@ export default function Home() {
           </div>
         </footer>
         {/* Footer */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `const button = document.querySelector("#menu-button");
+          const menu = document.querySelector("#menu");
+          
+          button.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+          });
+          `,
+          }}
+        />
       </>
     </>
   );
