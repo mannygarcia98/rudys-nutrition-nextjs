@@ -65,11 +65,10 @@ export default function Home() {
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Begin Your Fitness Journey Today</h1>
             <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Whether you want to pack on muscle or lose weight, our coach can give you the guidance you need to crush your goals.</p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-              <a href="#pricing" className="sm:mx-0 mx-20 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-900">
-                {" "}
-                Get started{" "}
+              <a href="#pricing" className="mx-36 sm:mx-0 inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-900">
+                Get started
               </a>
-              <a href="#services" className="sm:mx-0 mx-20 inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+              <a href="#services" className="mx-36 sm:mx-0 inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                 Learn more
                 <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -257,17 +256,11 @@ export default function Home() {
               required=""
             />
           </div>
-          <div className="flex items-start mb-6">
-            <div className="flex items-center h-5">
-              <input id="remember" type="checkbox" defaultValue="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required="" />
-            </div>
-            <label htmlFor="remember" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-              Remember me
-            </label>
+          <div className="sm:text-left text-center">
+            <button type="submit" className="text-white  focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
+              Submit
+            </button>
           </div>
-          <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Submit
-          </button>
         </form>
 
         {/* Signup Form */}
@@ -279,9 +272,9 @@ export default function Home() {
               <Link href="/" className="flex items-center">
                 <Image src="/images/blue-green-gradient-lighter-logo-icon.svg" className="h-8 mr-3" width={27.47} height={32} alt="Rudy&#39;s Nutrition Logo" />
 
-                <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Rudy&#39;s Nutrition</span>
+                <span className="self-center text-xl md:text-2xl font-semibold whitespace-nowrap text-white">Rudy&#39;s Nutrition</span>
               </Link>
-              <ul className="flex flex-wrap items-center mb-0 text-sm font-medium text-gray-300 invisible sm:visible">
+              {/* <ul className="flex flex-wrap items-center mb-0 text-sm font-medium text-gray-300 invisible sm:visible">
                 <li>
                   <a href="#services" className="mr-4 hover:underline md:mr-6 ">
                     Services
@@ -302,9 +295,9 @@ export default function Home() {
                     Contact
                   </button>
                 </li>
-              </ul>
+              </ul> */}
             </div>
-            <hr className="my-2 sm:mx-auto border-gray-700 lg:my-8" />
+            <hr className="my-2 sm:mx-auto border-gray-700 lg:my-4" />
             <span className="block text-sm sm:text-center text-gray-300">
               © 2023{" "}
               <Link href="/" className="hover:underline">
