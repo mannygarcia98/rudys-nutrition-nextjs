@@ -24,7 +24,7 @@ export default function Home() {
             <div className="flex md:order-2">
               <button
                 type="button"
-                onclick="window.location.href='#pricing';"
+                onClick="window.location.href='#pricing';"
                 className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-px md:px-4 md:py-2 text-center mr-2 md:mr-0 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
               >
                 Get started
@@ -276,12 +276,12 @@ export default function Home() {
         <footer className="rounded-lg shadow bg-gray-900 m-4">
           <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
-              <a href="/" className="flex items-center sm:mb-0">
+              <Link href="/" className="flex items-center">
                 <Image src="/images/blue-green-gradient-lighter-logo-icon.svg" className="h-8 mr-3" width={27.47} height={32} alt="Rudy&#39;s Nutrition Logo" />
 
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Rudy&#39;s Nutrition</span>
-              </a>
-              <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-300 invisible sm:visible">
+              </Link>
+              <ul className="flex flex-wrap items-center mb-0 text-sm font-medium text-gray-300 invisible sm:visible">
                 <li>
                   <a href="#services" className="mr-4 hover:underline md:mr-6 ">
                     Services
