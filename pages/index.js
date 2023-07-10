@@ -231,30 +231,51 @@ export default function Home() {
 
         {/* Signup Form */}
         <form className="py-8 px-4 mx-auto max-w-screen-sm lg:py-16 lg:px-6" id="signup">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white text-center">Sign up now!</h2>
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white text-center">Sign up today!</h2>
           <p className="mb-5 font-light sm:text-xl text-gray-300 text-center">Fill out the form below and we will get back to you shortly to schedule your free phone call.</p>
           <div className="mb-6">
-            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-              Your email
+            <label htmlFor="email" className="block mb-2 text-sm font-medium text-white">
+              {" "}
+              Your email{" "}
             </label>
             <input
               type="email"
+              autocapitalize="off"
+              autoCorrect="off"
+              name="MERGE0"
               id="email"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="name@flowbite.com"
+              className="border text-gray-900 text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 dark:placeholder-gray-400 dark:text-white focus:ring-blue-500 focus:border-blue-500"
+              placeholder="name@email.com"
               required=""
             />
           </div>
           <div className="mb-6">
-            <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-              Your password
+            <label htmlFor="firstName" className="block mb-2 text-sm font-medium text-white">
+              {" "}
+              First Name{" "}
             </label>
-            <input
-              type="password"
-              id="password"
-              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              required=""
-            />
+            <input type="text" id="firstName" className="border text-gray-900 text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 dark:placeholder-gray-400 dark:text-white focus:ring-blue-500 focus:border-blue-500" required="" />
+          </div>
+          <div className="mb-6">
+            <label htmlFor="lastName" className="block mb-2 text-sm font-medium text-white">
+              {" "}
+              Last Name{" "}
+            </label>
+            <input type="text" id="lastName" className="border text-gray-900 text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 dark:placeholder-gray-400 dark:text-white focus:ring-blue-500 focus:border-blue-500" required="" />
+          </div>
+          <div className="mb-6">
+            <label htmlFor="countries" className="block mb-2 text-sm font-medium text-gray-900 text-white">
+              {" "}
+              What is your fitness goal?{" "}
+            </label>
+            <select id="countries" className="border text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 dark:placeholder-gray-400 text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+              <option defaultValue disabled>
+                Select an option
+              </option>
+              <option value="lose">Lose weight</option>
+              <option value="gain">Gain muscle</option>
+              <option value="wellness">Improve overall wellness</option>
+            </select>
           </div>
           <div className="sm:text-left text-center">
             <button type="submit" className="text-white  focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
