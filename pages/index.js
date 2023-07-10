@@ -22,13 +22,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="flex md:order-2">
-              <button
-                type="button"
-                onClick="window.location.href='#pricing';"
-                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-px md:px-4 md:py-2 text-center mr-2 md:mr-0 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
-              >
+              <a href="#pricing" className="inline-flex items-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-2.5 py-px md:px-4 md:py-2 text-center mr-2 md:mr-0 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
                 Get started
-              </button>
+              </a>
               <button data-collapse-toggle="navbar-sticky" type="button" id="menu-button" className="inline-flex items-center p-2 text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-300 hover:bg-gray-700 focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
                 <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
